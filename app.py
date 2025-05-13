@@ -46,4 +46,5 @@ for i, tab in enumerate(tabs):
             st.write("📋 Input Preview:", data.head())
             preds = predict_objective(data, model_files[i])
             st.success("✅ Prediction Complete")
-            st.dataframe(preds)
+            st.dataframe(preds)preds = predict_objective(data, model_files[i])
+st.dataframe(preds)  # ✅ Correct
