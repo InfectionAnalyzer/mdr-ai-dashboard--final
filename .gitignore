@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Data files
+*.csv
+*.npz
+*.pkl
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
